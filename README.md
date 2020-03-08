@@ -1,5 +1,8 @@
 # React Native Tutorial - Self Study project
 
-## Table of Contents
 
-### This tutorial is a self-study project, through this project I will cover different topics to become a React Native Developer.
+## This tutorial is a self-study project, through the project I am going to cover different topics which leads me to become a React Native developer.
+
+## Table of Contents
+* HTML / CSS 
+
