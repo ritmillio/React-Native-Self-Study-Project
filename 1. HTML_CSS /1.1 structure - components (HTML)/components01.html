@@ -16,12 +16,18 @@ w3schools have a decent tutorial on HTML5 / CSS3
     The <title> element specifies a title for the document
     The <body> element contains the visible page content
 -->
+<!--How to link css file / js file ?
+    We place the css file link into the head tag and the js file link into the end of the body tag 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--this below is the link for an uncreated css file-->
+    <link rel="stylesheet" href="nameofthecssfile.css">
     <title>HTML structure and components</title>
 </head>
 <body>
@@ -36,5 +42,40 @@ w3schools have a decent tutorial on HTML5 / CSS3
         <li>list2</li>
     </ul>
 
+    <p>This is a paragraph</p>
+
+    <table>
+        <tr>
+            <th>This</th>
+            <th>is</th>
+            <th>a</th>
+            <th>table</th>
+        </tr>
+    </table>
+
+    <!--Div tag -- block level element
+        common thing that after body tag developers make a div container tag, but it is really usefull if we put eveything into divs
+    -->
+    <div class="container01">
+        <p>This is a paragh. into a div</p>
+    </div>
+
+    <!--HTML classes/id
+        class="whateverclassname"
+        id="whateveridname"
+        these are specify a unique class for html element/elements or unique id for an html element
+    -->
+
+    <!--HTML semantic 
+        header
+        nav
+        section 
+        aside
+        footer
+
+        read more about -- https://www.w3schools.com/html/html5_semantic_elements.asp
+    -->
+    <!--This is a link for an uncreated js file-->
+    <script src="nameofthe" ></script>
 </body>
 </html>
