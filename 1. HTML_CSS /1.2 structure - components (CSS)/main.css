@@ -4,3 +4,83 @@
     CSS is a language that describes the style of an HTML document.
     CSS describes how HTML elements should be displayed.
 */
+
+/*
+    CSS Example
+*/
+
+body {
+    background-color : lightblue;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+/* CSS syntax --> https://www.w3schools.com/css/css_syntax.asp */
+
+/*CSS borders*/
+p.one {
+    border-style: solid;
+    border-width: 1px;
+}
+/*CSS margin*/
+p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    /*additional border*/
+    border: 1px solid red;
+}
+/*CSS padding*/
+div{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+p{
+    padding: 25px 50px 75px; /*top padding : 25 ; right and left paddings are 50px ; bottom padding is 75px*/
+}
+
+/*CSS Box Model !!!!!!  */
+/*link --> https://www.w3schools.com/css/css_boxmodel.asp*/
+div{
+    width : 300px;
+    border : 15px solid green;
+    padding : 50px; 
+    margin : 20px;
+}
+
+/*CSS TEXT decoration/alignment etc. link : --> https://www.w3schools.com/css/css_text.asp */
+
+
+/* CSS position --> The position property specifies the type of positioning method used for an element
+(static, relative, fixed, absolute or sticky). */
+div.static{
+    position : static;
+    /*More examples at the link*/
+}
+
+/*CSS Overflow*/
+/*
+    The overflow property specifies whether to clip the content
+    or to add scrollbars when the content of an element is too big to fit in the specified area.
+    The overflow property has the following values:
+
+    visible - Default. The overflow is not clipped. The content renders outside the element's box
+    hidden - The overflow is clipped, and the rest of the content will be invisible
+    scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+    auto - Similar to scroll, but it adds scrollbars only when necessary
+*/
+div{
+    overflow: hidden;
+}
+
+/*CSS float
+
+    The CSS float property specifies how an element should float.
+    The CSS clear property specifies what elements can float beside the cleared element and on which side
+*/
+img{
+    float: right;
+}

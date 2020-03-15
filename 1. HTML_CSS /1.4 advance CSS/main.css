@@ -1,0 +1,35 @@
+/*
+    CSS rounded corners
+*/
+
+#rcorners{
+    border-radius: 35px;
+}
+
+/*
+    CSS Colors 
+*/
+div{
+    background-color : rgba(255,255,255,0.4); /* The last property is opacity (0.4) , 0.0 is completely transparent 1.0 is completly dark*/
+}
+
+/*
+    CSS Flexbox
+
+    To start using the Flexbox model, you need to first define a flex container.
+
+    html code --> 
+    A flex container with three flex items:
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+*/
+.flex-container {
+    display:flex; /* The flex container becomes flexible by setting the display property to flex*/
+}
+/*
+    More about Flexbox : --> https://www.w3schools.com/css/css3_flexbox.asp
+*/
