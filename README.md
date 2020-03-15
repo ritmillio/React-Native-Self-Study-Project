@@ -7,9 +7,10 @@
 * 1. HTML / CSS 
     * 1.1 structure / components (HTML)
     * 1.2 structure / components (CSS)
-    * 1.3 advance HTML - CSS
-    * 1.4 more resources
-    * 1.5 portfolio website project
+    * 1.3 advance HTML 
+    * 1.4 advance CSS
+    * 1.5 more resources
+    * 1.6 portfolio website project
 * 2. Javascript
     * Javascript basics
     * Javascript advanced
