@@ -23,4 +23,5 @@
 * 6. Redux
 * 7. React Native
 * 8. React Navigation
+* 9. Faster Development in VS Code
 
